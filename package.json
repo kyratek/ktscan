@@ -18,5 +18,8 @@
     "redis": "^4.6.4",
     "redis-om": "^0.3.6",
     "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
   }
 }
