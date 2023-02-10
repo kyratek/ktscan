@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  redis-stack:
+    ports:
+      - '5079:6379'
+      - '5080:8001'
+    environment:
+      - REDIS_ARGS=-requirepass aacf3457dca24d13933a
+    image: 'redis/redis-stack:latest'
